@@ -1,0 +1,31 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#img-caption {
+  width: 200px;
+  margin-left: 35%;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+h1, h4, p {
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+}
+
+ul {
+  text-align: justify;
+}

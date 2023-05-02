@@ -1,0 +1,35 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4;
+  background-color: #cc4334;
+  color: #ffffff;
+  width: 500px;
+  margin: auto;
+}
+
+form {
+  background-color:  #dd5544;
+  padding: 35px;
+  border-radius: 2rem;
+  width: 500px;
+}
+
+.submit-button {
+  width: 80%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.input_headings {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.form-input {
+  display: block;
+  width: 90%;
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #ced4da;
+}

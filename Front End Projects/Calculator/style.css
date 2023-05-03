@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ecf0f1;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  background-color: #212112;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  height: 390px;
+  width: 250px;
+}
+
+.display {
+  color: #fff;
+  font-size: 36px;
+  position: relative;
+  padding: 20px 10px;
+  text-align: right;
+  height: 70px;
+  width: 100%;
+}
+
+/* .display small {
+  color: #EE9406;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 12px;
+} */
+
+.nums-container {
+  width: 75%;
+}
+
+.ops-container {
+  width: 25%;
+}
+
+button {
+  border: none;
+  border-radius: 30%;
+  cursor: pointer;
+  font-size: 22px;
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.big-v {
+  border-radius: 50px;
+  height: 110px;
+}
+
+button.big-h {
+  border-radius: 50px;
+  width: 110px;
+}
+
+button.orange {
+  background-color: #EE9406;
+  color: #fff;
+}
+
+button.dark-grey {
+  background-color: #323232;
+  color: #fff;
+}
+
+button.light-grey {
+  background-color: #A3A3A3;
+}
+
+button.ac {
+  margin-right: 50%;
+  margin-left: 8%;
+}
+#equals {
+  background-color: #2e86c0;
+}
+#decimal {
+  background-color: #cdcdcd;
+}

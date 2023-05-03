@@ -3,5 +3,5 @@
 Projects include:
 - Random Quote Machine
 - Markdown Previewer
-- Pomodoro CLock
+- Pomodoro Clock
 - JavaScript Calculator

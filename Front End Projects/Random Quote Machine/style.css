@@ -1,0 +1,101 @@
+div {
+  position: relative;
+  z-index: 2;
+}
+body {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card {
+  margin-top: 4%;
+  position: relative;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 20%;
+  min-width: 300px;
+}
+.card-header {
+  padding-left: 30%;
+  line-height: 2em;
+  font-size: 1.2em;
+}
+#quote-sign {
+  font-size: 50%;
+  padding-right: 6px;
+  vertical-align: top;
+}
+#text {
+  font-size: 1.3em; 
+  padding: 10px 7px;
+  text-align: center;
+  clear: both;
+  font-weight: 500;
+}
+#author {
+  font-size: 1.1em;
+  text-align: right;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  clear: both;
+}
+#buttons {
+   margin-bottom: 20px;
+  min-width: 300px;
+  justify-items: space-around;
+}
+#new-quote {
+      height: 38px;
+      width: 120px;
+     opacity: 1;
+  cursor: pointer;
+   border: none;
+   border-radius: 5px;
+      color: #fff;
+      outline: none;
+      margin-left: 1.3em;
+      font-size: 0.9em;
+  background-color: #6c6573;
+  font-weight: 600;
+  padding-left: 7px;
+  position: relative;
+}
+#tweet-quote {
+  margin-left: 50%;
+  margin-right: 3%;
+  color: #fff;
+  padding-top: 8px;
+  opacity: 1;
+  cursor: pointer;
+   border: none;
+   border-radius: 5px;
+  background-color: #008ae6;
+  position: relative;
+}
+#tumblr-quote {
+  color: #fff;
+  opacity: 1;
+  cursor: pointer;
+   border: none;
+   border-radius: 5px;
+   background-color: #34526f;
+  position: relative;
+}
+#footer {
+  color: #fff;
+  width: 50%;
+  margin-left: 45%;
+  padding: 20px;
+  font-size: 20px; 
+}
+#footer a {
+    text-decoration: none;
+  color: #fff;
+}
+#footer a:hover {
+  color: #ddd;
+}
+
+
+
+
